@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Decor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div id="home-dacor">
+    <div class="header">
+      <div class="header-title">
+        <div class="phone-email">
+          <span class="phone">+222-1800-2628</span>
+          <span class="email">blueskytechcompany@gmail.com</span>
+        </div>
+        <div class="sign-up">
+          <span>Sign up for 10% off your first order:
+            <a href="#">Sign Up</a></span>
+        </div>
+        <div class="header-laguage">
+          <ul>
+            <li>Our Stores</li>
+            <li>English <i class="fa-solid fa-angle-down"></i></li>
+            <li>
+              United States (USD $) <i class="fa-solid fa-angle-down"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="logo-header">
+          <img src="./image/Logo.png" alt="Logo" />
+        </div>
+        <div class="header-nav" id="element"> 
+          
+          <ul>
+            <li>Home</li>
+            <li>Shop <i class="fa-solid fa-angle-down"></i></li>
+            <li>Product <i class="fa-solid fa-angle-down"></i></li>
+            <li>Page <i class="fa-solid fa-angle-down"></i></li>
+            <li>Blog <i class="fa-solid fa-angle-down"></i></li>
+            <li>Buy Umino!</li>
+          </ul>
+        </div>
+        <div class="header-item">
+          <div class="icon-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="icon-people">
+            <i class="fa-regular fa-user"></i>
+          </div>
+          <div class="icon-clock">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <div class="icon-heart">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="icon-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+        <div id="menu-mobile" onclick="toggleElement()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="slide-show">
+        <div class="slider">
+          <div class="myslide ">
+            <div class="txt">
+              <p>Beautiful & Elegant</p>
+              <h1>Premium Bedroom</h1>
+              <p>Discount 50% On Products & Free Shipping.</p>
+              <button type="submit">Shop Now</button>
+            </div>
+            <img src="./image/slide.png" style="width: 100% ;height: 100%;" />
+          </div>
+          <div class="myslide ">
+            <div class="txt">
+              <p>Beautiful & Elegant</p>
+              <h1>Premium Bedroom</h1>
+              <p>Discount 50% On Products & Free Shipping.</p>
+              <button type="submit">Shop Now</button>
+            </div>
+            <img src="./image/slide.png" style="width: 100% ;height: 100%; " />
+          </div>
+          <div class="myslide ">
+            <div class="txt">
+              <p>Beautiful & Elegant</p>
+              <h1>Premium Bedroom</h1>
+              <p>Discount 50% On Products & Free Shipping.</p>
+              <button type="submit">Shop Now</button>
+            </div>
+            <img src="./image/slide.png" style="width: 100% ;height: 100%;" />
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="dotsbox" style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="categories">
+        <h3>Top Categories</h3>
+        <span>Our products are designed for everyone, environmentally
+          friendly.</span>
+        <div class="categories-box">
+          <div class="categories-card">
+            <img src="./image/room.png" alt="room" />
+            <span>Living Room</span>
+          </div>
+          <div class="categories-card">
+            <img src="./image/bedroom.png" alt="bedroom" />
+            <span>special bedroom</span>
+          </div>
+          <div class="categories-card">
+            <img src="./image/kitchen.png" alt="kitchen" />
+            <span>Dining & Kitchen</span>
+          </div>
+          <div class="categories-card">
+            <img src="./image/home.png" alt="home" />
+            <span>Home Accessories</span>
+          </div>
+          <div class="categories-card">
+            <img src="./image/outdoor.png" alt="outdoor" />
+            <span>Outdoor</span>
+          </div>
+          <div class="categories-card">
+            <img src="./image/decor.png" alt="decor" />
+            <span>Lighting & Decor</span>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <h3>Top Trending</h3>
+        <span>Our products are designed for everyone, environmentally
+          friendly.</span>
+        <div class="trending-box">
+          <div class="card-trending">
+            <img src="./image/img_trending1.png" alt="char" class="card-img" />
+            <span>Form Chair Brass Base</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price">$569.00</div>
+          </div>
+          <div class="card-trending card-change">
+            <img src="./image/img_trending2.png" alt="char" class="card-img" />
+            <span>Vase Echasse Large</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price price-change">$569.00 <span>$156.00</span></div>
+            <div class="block-sale">
+              <button class="btn-price">-50%</button>
+              <button class="btn-oder">Pre-Order</button>
+            </div>
+          </div>
+          <div class="card-trending">
+            <img src="./image/img_trending3.png" alt="char" class="card-img" />
+            <span>Form Chair Brass Base</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price">$569.00</div>
+          </div>
+          <div class="card-trending">
+            <img src="./image/img_trending4.png" alt="char" class="card-img" />
+            <span>Bottle Grinder Of Pepper</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price">$569.00</div>
+          </div>
+          <div class="card-trending">
+            <img src="./image/img_trending5.png" alt="char" class="card-img" />
+            <span>Form Bar Stool Oak Base</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price">$569.00</div>
+          </div>
+          <div class="card-trending">
+            <img src="./image/img_trending6.png" alt="char" class="card-img" />
+            <span>Table Lamp 15x29cm</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price">$569.00</div>
+          </div>
+          <div class="card-trending">
+            <img src="./image/img_trending7.png" alt="char" class="card-img" />
+            <span>Carrie Table Lamp</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price">$569.00</div>
+          </div>
+          <div class="card-trending card-change">
+            <img src="./image/img_trending8.png" alt="char" class="card-img" />
+            <span>Form Armchair Black</span>
+            <img src="./image/star.png" alt="star" class="trending-star" />
+            <div class="price price-change">$569.00 <span>$156.00</span></div>
+            <div class="block-sale">
+              <button class="btn-price">-50%</button>
+              <button class="btn-oder">Pre-Order</button>
+            </div>
+          </div>
+        </div>
+        <button class="load-more">Load More</button>
+      </div>
+      <div class="banner">
+        <img src="./image/banner.png" alt="banner" />
+        <div class="banner-form">
+          <span>LIMITED EDITION</span>
+          <h3>Unique Style</h3>
+          <p>
+            The watch is carefully designed with quality materials, such as
+            the domed sapphire crystal, and the meticulous level of detail -
+            from the dial to the delicate gold hour markers.
+          </p>
+          <button>Discover Now</button>
+        </div>
+      </div>
+      <div class="infomation">
+        <div class="infomation-card">
+          <img src="./image/shipping.png" alt="shipping" />
+          <h5>Free Shipping</h5>
+          <p>
+            Get complimentary ground shipping on every order. Don't love it?
+            Send it back, on us.
+          </p>
+        </div>
+        <div class="infomation-card">
+          <img src="./image/retums.png" alt="retums" />
+          <h5>Free Returns</h5>
+          <p>
+            Get complimentary ground shipping on every order. Don't love it?
+            Send it back, on us.
+          </p>
+        </div>
+        <div class="infomation-card">
+          <img src="./image/support.png" alt="support" />
+          <h5>Support Online</h5>
+          <p>
+            Get complimentary ground shipping on every order. Don't love it?
+            Send it back, on us.
+          </p>
+        </div>
+      </div>
+      <div class="intagram">
+        <h3>Follow Us</h3>
+        <span>Inspire and let yourself be inspired, from one unique fashion to
+          another.</span>
+        <div class="intagram-box">
+          <div class="card-intagram">
+            <img src="./image/img_intagram1.png" alt="" class="img-intagram" />
+            <img src="./image/bag.png" alt="" class="instagram-bag" />
+          </div>
+          <div class="card-intagram">
+            <img src="./image/img_intagram2.png" alt="" class="img-intagram" />
+            <img src="./image/bag.png" alt="" class="instagram-bag" />
+          </div>
+          <div class="card-intagram">
+            <img src="./image/img_intagram3.png" alt="" class="img-intagram" />
+            <img src="./image/bag.png" alt="" class="instagram-bag" />
+          </div>
+          <div class="card-intagram">
+            <img src="./image/img_intagram4.png" alt="" class="img-intagram" />
+            <img src="./image/bag.png" alt="" class="instagram-bag" />
+          </div>
+          <div class="card-intagram">
+            <img src="./image/img_intagram5.png" alt="" class="img-intagram" />
+            <img src="./image/bag.png" alt="" class="instagram-bag" />
+          </div>
+          <div class="card-intagram">
+            <img src="./image/img_intagram6.png" alt="" class="img-intagram" />
+            <img src="./image/bag.png" alt="" class="instagram-bag" />
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-box">
+          <div class="footer-content information">
+            <img src="./image/Logo.png" alt="logo">
+            <div class="content-text">
+              <span>268 St, South New York/NY 98944, United States</span>
+              <span>+222-1800-2628</span>
+              <span>blueskytechcompany@gmail.com</span>
+            </div>
+            <div class="social">
+              <img src="./image/social1.svg" alt="social1">
+              <img src="./image/social2.svg" alt="social2">
+              <img src="./image/social3.svg" alt="social3">
+              <img src="./image/social4.svg" alt="social4">
+              <img src="./image/social5.svg" alt="social5">
+              <img src="./image/social6.svg" alt="social6">
+              <img src="./image/social7.svg" alt="social7">
+            </div>
+          </div>
+          <div class="footer-content customer">
+            <h5>Customer Service</h5>
+            <div class="content-text">
+              <span>Privacy Policy</span>
+              <span>Refund Policy</span>
+              <span>Shipping & Return</span>
+              <span>Term & Conditions</span>
+              <span>Advanced Search</span>
+              <span>Store Locations</span>
+            </div>
+          </div>
+          <div class="footer-content shop">
+            <h5>Shop By Categories</h5>
+            <div class="content-text">
+              <span>Smartphone </span>
+              <span>Headphones</span>
+              <span>Computer & Desktop</span>
+              <span>Cameras & Photos</span>
+              <span>Laptop & Ipad</span>
+            </div>
+          </div>
+          <div class="footer-content sign-up">
+            <h5>Sign Up to Newsletter</h5>
+            <div class="content-text">
+              <span>Enter your email address to get $10 off your first order and free <br>
+                shipping. Updates information on Sales and Offers.
+              </span>
+            </div>
+            <div class="content-form">
+              <input type="text" placeholder="Enter your email...">
+              <button type="submit">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-last">
+          <div class="footer-language">
+            <div class="item-language">
+              <span>English <i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div class="item-nationality">
+              <span>United States (USD $) <i class="fa-solid fa-angle-down"></i></span>
+            </div>
+          </div>
+          <div class="footer-license">
+            <span>© 2022 Umino Store. All Rights Reserved.</span>
+          </div>
+          <div class="footer-bank">
+            <img src="./image/bank1.png" alt="bank">
+            <img src="./image/bank2.png" alt="bank">
+            <img src="./image/bank3.png" alt="bank">
+            <img src="./image/bank4.png" alt="bank">
+            <img src="./image/bank5.png" alt="bank">
+            <img src="./image/bank6.png" alt="bank">
+            <img src="./image/bank7.png" alt="bank">
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>
